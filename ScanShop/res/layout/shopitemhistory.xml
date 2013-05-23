@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Transparent">
+
+
+        <LinearLayout
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Shop Item:"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/shopItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="456546546"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Date Purchased:"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/shopItemDateBought"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="456546546"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Shop Item Price:"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/shopItemPrice"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="456546546"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Shop Item Sold For:"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/shopItemSoldFor"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="456546546"
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="right" 
+        android:background="#8800FF00"/>
+    
+    
+    
+    
+    <Button
+                android:id="@id/printReceipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Print Receipt" />
+    
+    <Button
+                android:id="@id/emailReceipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Receipt" />
+    
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5.0px" >
+
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Transparent">
+
+
+        <LinearLayout
+            android:id="@id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_left" >
+            
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Create A New Account"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header1"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Email:*"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+            <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=""
+                android:textSize="@dimen/textfieldFontSize" />
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Password:*"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+            <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:password="true"
+                android:textSize="@dimen/textfieldFontSize" />
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirmation Code:*"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+            <EditText android:id="@id/firstName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=""
+                android:textSize="@dimen/textfieldFontSize" />
+
+            <Button android:id="@id/setupOk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Register" />
+            <Button android:id="@id/setupCancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

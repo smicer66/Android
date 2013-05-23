@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="Theme.Transparent" parent="android:Theme">
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@drawable/background</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:backgroundDimEnabled">false</item>
+	  </style>
+	  <style name="Theme.Default" parent="android:Theme">
+	    <item name="android:windowNoTitle">true</item>
+	  </style>
+</resources>

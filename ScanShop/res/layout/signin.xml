@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5.0px" >
+
+    <!-- <ImageView android:layout_gravity="center" android:id="@id/SplashImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/banner" />-->
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Transparent">
+
+
+
+
+        <LinearLayout
+            android:id="@id/signInView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/ashbg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_left"
+            android:paddingTop="@dimen/textfieldFontSize" >
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Address:"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/textfieldFontSize" >
+            
+                <requestFocus />
+            </EditText>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:password="true"
+                android:text=""
+                android:textSize="@dimen/textfieldFontSize" />
+
+            <Button android:id="@id/signIn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sign In" />
+
+            <Button
+                android:id="@id/forgotSignIn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Forgot My Sign In Details" />
+
+            <TextView
+                android:id="@id/postUrlIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text=""
+                android:textSize="@dimen/textfieldFontSize" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

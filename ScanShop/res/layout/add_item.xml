@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5.0px"
+    android:paddingBottom="@dimen/padding_left"
+    android:paddingLeft="@dimen/padding_left"
+    android:paddingRight="@dimen/padding_left"
+    android:paddingTop="@dimen/padding_left" >
+
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Transparent">
+
+
+
+
+        <LinearLayout
+            android:id="@id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/ashbg"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_left"
+            android:paddingTop="@dimen/padding_left" >
+
+
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Shop Item Details:"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@id/shopItemTitleEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="true"
+                android:textSize="@dimen/textfieldFontSize" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Shop Item Type:"
+                android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" />
+
+             
+            <EditText
+                android:id="@id/shopItemTypeEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textfieldFontSize" />
+            
+            
+            <TextView android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Amount:" />
+
+             <EditText
+                android:id="@id/amountEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textfieldFontSize" />
+
+            
+            <TextView android:textColor="@color/font_label_color_default"
+                android:textSize="@dimen/font_size_header"
+                android:textStyle="bold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Description:" />
+
+             <EditText
+                android:id="@id/shopItemDescription"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textfieldFontSize" />
+            
+
+             
+                <CheckBox
+		            android:id="@+id/sinkLive"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Sink this item on Live Server"
+		            android:textColor="@color/font_color_default"
+		            android:textSize="@dimen/textfieldFontSize" />
+                
+                
+            <LinearLayout
+                android:id="@id/LinearLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/ashbg"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/textfieldFontSize" >
+
+
+                
+
+                <Button
+                    android:id="@id/sellButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Purchase" />
+
+
+            	<Button
+            	    android:id="@id/cancelButton"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:text="Cancel" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

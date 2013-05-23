@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#ffffff"
+    android:textColor="#000000"
+    android:padding="5px">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#FFCC00"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:textColor="#000000" >
+
+        <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/SplashImageView"
+        android:layout_gravity="center"        
+        android:src="@drawable/splashicon"        
+        android:contentDescription="@string/pillpodIconDescribe">
+        
+    	</ImageView>
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Version 1.0"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="13px" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Copyright 2013"
+        android:textColor="@color/white"
+        android:textSize="14px" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ShopScanActivity!</string>
+    <string name="app_name">ShopScan</string>
+    <string name="app_title">ShopScan</string>
+    <string name="personalDb">pddb</string>
+    <string name="shopItems">shopItems</string>
+    <string name="country_table">country_table</string>
+    <string name="securityQuestionTable">securityQuestionTable</string>
+    <string name="state_table">state_table</string>
+    <string name="medicationQuanity">medicationQuanity</string>
+    <string name="shopItemsHistory">shopItemsHistory</string>
+    <string name="billCards">billCards</string>
+    <string name="settings">settings</string>
+    <string name="posturl3">http://10.0.2.2:8080/PillPodServer/PillPodServlet1</string>
+    <string name="posturl2">http://10.0.2.2:70/scanshop/index.php</string>
+    <string name="posturl">http://www.imobilliare.com/scanshop/index.php</string>
+    <string name="drugs_table_take_log">drugs_table_take_log</string>
+    <string name="demo">demo1</string>
+    <string name="synchDb">syncdb</string>
+    <string name="networkDb">scdb</string>
+    <string name="CurrentDBName">shopscan_799</string>
+    <string name="line_spacing">20.0px</string>
+    <string name="font_face">normal</string>
+    <string name="pillpodIconDescribe">PillPod Icon</string>
+    <string name="countryCode">234</string>
+    
+
+    <string-array name="font_size_label">
+        <item>13sp</item>
+    </string-array>
+    <string-array name="font_size_button">
+        <item>12sp</item>
+    </string-array>
+    <string-array name="font_size">
+        <item>13sp</item>
+    </string-array>
+    <string-array name="editTextDefault">
+        <item>13sp</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_recover">Recover Password</string>
+    <string name="title_activity_scan_shop">Scan Shop</string>
+
+</resources>

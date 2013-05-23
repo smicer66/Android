@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5.0px" >
+
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Transparent">
+
+
+        <LinearLayout
+            android:id="@id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/ashbg"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_left" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/padding_left"
+                android:text="Clicking on the I Agree button means you accept the terms and conditions stated below \n"
+                android:textColor="@color/font_color_default"
+                android:textSize="12sp"
+                android:typeface="sans" />
+
+            <TextView  android:textColor="@color/font_color_default" android:layout_width="fill_parent" android:textSize="12sp"  android:layout_height="wrap_content" android:text="License Information Comes Here!\n\n" />
+
+            <CheckBox
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@id/iAgree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I Agree"
+                android:textColor="@color/font_color_default" />
+
+
+            <Button
+                android:id="@id/licenseAgree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proceed" />
+            
+<TextView  android:textColor="@color/font_color_default" android:id="@id/urlValue" android:layout_width="fill_parent" android:textSize="12sp"  android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
